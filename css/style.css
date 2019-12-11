@@ -9,10 +9,32 @@ html {
   box-sizing: inherit;
   }
 
+.container {
+  width: 100%;
+  background-color: green;
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
   background-color: orange;
+}
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: calc(150px * 3 + 10px * 2);
+  margin: 0 auto;
+  background-color: yellow;
+}
+
+.box-two {
+  width: 150px;
+  height: 150px;
+  background-color: #007777;
+  border: 3px solid #003333;
+  margin-bottom: 10px;
 }
 
 .flex-column {
