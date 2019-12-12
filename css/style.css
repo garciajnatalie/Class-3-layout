@@ -50,6 +50,10 @@ html {
   align-items: center;
 }
 
+.grid-container {
+  
+}
+
 .box {
   width: 300px;
   height: 300px;
